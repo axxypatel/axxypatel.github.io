@@ -1,0 +1,275 @@
+@font-face{
+font-family: Gotham Bold;
+src: url("../font/Gotham Bold.otf") format("opentype");
+}
+@font_face{
+	font-family:Gotham Book;
+	src:url("../font/Gotham Book.otf") format("opentype");
+}
+@font_face{
+	font-family:Gotham Medium;
+	src:url("../font/Gotham Medium.otf") format("opentype");
+}
+@font_face{
+	font-family:Gotham Extra Light;
+	src:url("../font/Gotham-ExtraLight.otf") format("opentype");
+}
+.wrapper{
+width:100%;	
+}
+.body{
+margin:0px;
+padding:0px;
+font-family:Gotham ExtraLight;
+}
+.container{
+width:960px;	
+    padding: 0px;
+    margin: 0px auto;
+}
+.banner{
+width:100%;
+}
+.banner_img{
+	
+}
+.prev{
+	top:20%;
+	left:2%;
+	position:absolute;
+}
+.next{
+	top:20%;
+	right:2%;
+	position:absolute;
+}
+.banner img{
+width:100%;
+float:left;
+}
+.banner_text{
+position:absolute;
+        left: 29%;
+        top: 11%;	
+}
+.banner_text .red_text{
+   background: #d70035;
+    display: inline-block;
+    padding: 8px;
+    margin-left: -7%;
+    padding: 0px 27px 0px 11px;
+    font-size: 19px;
+    color: white;
+}
+.banner_text .blue_text{
+      background: #006aa3;
+    margin-left: -39px;
+    display: inline-block;
+    padding: 0px 30px 0px 23px;
+    font-size: 40px;
+    margin-left: -10%;
+    color: white;
+}
+.banner_text .gree_text{
+        background: #39d52d;
+    display: inline-block;
+    padding: 0px 30px 0px 19px;
+    font-size: 42px;
+    margin-left: -3%;
+    
+}
+.banner_text .yellow_text{
+        background: #fddb00;
+    display: inline-block;
+    margin-left: 1%;
+    padding: 0px 30px 0px 19px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Gotham Medium;
+}
+.bank_header {
+width: 100%;
+    display: inline-block;
+    background-color: #006aa3;
+	color: white;
+    font-size: 28px;
+	font-family: Gotham Medium;
+	margin-top:-24%;
+}
+.bank_header h5{
+margin:0px;
+padding: 8px 0px 8px 0px;
+text-align: center;    	
+}
+.bank_images_main{
+	width:100%;
+}
+.bank_images{
+width:16.66%;
+float:left;	
+margin:0px;
+padding:0px;
+}
+.bank_images_main .bank_images h6{
+	text-align:center;
+	font-weight:800;
+	    font-family: Gotham;
+		margin:0px;
+		padding:0px 0px 6px 0px;
+}
+.bank_inner{
+	width:100%;
+	background:#006aa3;
+	display:inline-block;
+	
+}
+.bank_inner h6{
+	text-align:center;
+	font-family:Gotham ExtraLight;
+	font-size:18px;
+	color:white;
+	margin:0px;
+	padding: 8px 0px 8px 0px;
+}
+.navbar{
+float:left;
+background:#f2f2f2;
+width:100%;	
+}
+.main_menu{
+margin:0px;
+    padding: 0px;
+}
+.main_menu li{
+list-style:none;	
+float:left;
+margin:0px;
+padding:0px;
+}
+.navbar .main_menu li a{
+text-align:center;
+display:block;
+padding: 10px 29px 10px 1px;
+text-decoration:none;
+}
+.last_content
+{
+	float:left;
+	width:100%;
+	
+}
+.last_content_left{
+float:left;	
+width:33%;
+}
+.last_content_center{
+	float:left;
+	width:33%;
+}
+.last_content_right{
+float:left;	
+width:34%;
+}
+.last_content ul{
+	margin:0px 0px 30px 0px;
+	padding:0px;
+	list-style:none;
+}
+.last_content ul li{
+margin:5px 0px 5px 22px;
+}
+.last_content ul a{
+	text-decoration:none;
+	color:black;
+}
+.last_content h6{
+	margin:17px 0px 9px 22px;
+	font-weight: bold;
+    font-family: Gotham Medium;
+}
+.footer{
+	background:#333333;
+	width:100%;
+	float:left;
+}
+.footer_content{
+	margin-top: 2%;
+	margin-left: 38%;
+	margin-bottom:2%;
+}
+.footer h6{
+	margin:0px 0px 0px 0px;
+	padding:0px;
+	float:left;
+	font-size:18px;
+	color:white;
+}
+
+
+@media screen and (max-width:1025px)
+{
+	.banner_text{left: 26%;top: 5%;}
+	.banner_text .red_text {font-size:19px;}
+	.banner_text .blue_text {font-size:40px;}
+	.banner_text .gree_text {font-size:42px;}
+	.banner_text .yellow_text {font-size:40px;} 
+}
+
+@media screen and (max-width:960px)
+{
+	.container{width:100%;}
+	.banner_text{left: 25%;top: 8%;}
+	.banner_text .red_text {font-size:16px;padding:0px 17px 0px 11px;}
+	.banner_text .blue_text {font-size:30px;}
+	.banner_text .gree_text {font-size:32px;}
+	.banner_text .yellow_text {font-size:30px;} 
+	.bank_header{font-size:26px;}
+	.bank_images img{width:96%;}
+}
+
+@media screen and (max-width:767px)
+{
+	.banner_text {left: 25%;top: 5%;}
+	.banner_text .red_text {font-size:16px; padding:0px 17px 0px 11px;}
+	.banner_text .blue_text {font-size:24px;}
+	.banner_text .gree_text {font-size:26px;}
+	.banner_text .yellow_text {font-size:24px;}
+	.bank_header{font-size:24px;}	
+	.bank_inner h6{font-size:16px;}
+	
+}
+
+@media screen and (max-width:686px)
+{
+	.banner_text{left: 25%;top: 2%;}
+	.banner_text .red_text {font-size:10px; padding:0px 14px 2px 11px;}
+	.banner_text .blue_text {font-size:18px;}
+	.banner_text .gree_text {font-size:20px;}
+	.banner_text .yellow_text {font-size:18px;} 
+	.bank_header{font-size:16px;}
+	.bank_images{width:24.667%;}
+	.bank_inner h6{font-size:12px;}
+	/* .main_menu li {margin: 4px;}
+	.navbar .main_menu li a{padding: 0px 8px 0px 7px;} */
+	.footer_content{margin-top: 1%;	margin-left: 20%;	margin-bottom:1%;}
+	.footer_content img{width:40%;}
+}
+@media screen and (max-width :480px)
+{
+	.banner_text{display:none;}
+	.bank_images{width:50%;text-align:center;}
+	.bank_header{font-size:12px;}
+	.bank_images img{width:41%;}
+	.bank_inner h6{font-size:12px;padding:3px 0px;margin:0px auto;}
+	.main_menu li{width:50%;}
+	.main_menu li a {padding:7px 14px 2px 1px;}
+	.last_content ul {margin: 0px 0px 2px 0px;}
+	.last_content h6 {font-size: 14px;}
+	.last_content a {font-size: 12px;}
+	.last_content_left{width:100%}
+	.last_content_center{width:100%}
+	.last_content_right{width:100%}
+	.footer_content{margin-top: 1%;	margin-left: 20%;	margin-bottom:1%;}
+	.footer_content h6{font-size:12px;}
+	.footer_content img{width:40%;}
+}
