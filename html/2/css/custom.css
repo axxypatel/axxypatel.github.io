@@ -35,13 +35,21 @@ width:100%;
 }
 .prev{
 	top:20%;
-	left:2%;
+	left:1%;
 	position:absolute;
+	padding:15px;
+	border-radius:3px;
 }
 .next{
 	top:20%;
-	right:2%;
+	right:1%;
 	position:absolute;
+	padding:15px;
+	opacity:0.5;
+}
+.prev:hover, .next:hover{
+	background-color:grey;
+	opacity:0.5;
 }
 .banner img{
 width:100%;
@@ -86,6 +94,22 @@ position:absolute;
     font-size: 40px;
     font-weight: bold;
     font-family: Gotham Medium;
+}
+.slider_dots{
+ position: absolute;
+top: 43%;
+left: 50%;	
+}
+.slider_dots>span{
+	height:12px;
+	width:12px;
+	background-color:#bbb;
+	cursor:pointer;
+	display:inline-block;
+	border-radius:50%;
+}
+.slider_dots>span:hover{
+	background-color:white;
 }
 .bank_header {
 width: 100%;
@@ -136,6 +160,9 @@ float:left;
 background:#f2f2f2;
 width:100%;	
 }
+.navbar>ul>li:hover{
+	box-shadow:2px 3px 40px #888888
+}
 .main_menu{
 margin:0px;
     padding: 0px;
@@ -147,16 +174,14 @@ margin:0px;
 padding:0px;
 }
 .navbar .main_menu li a{
-text-align:center;
-display:block;
-padding: 10px 29px 10px 1px;
+display:inline-block;
+padding: 10px 29px 10px 15px;
 text-decoration:none;
 }
 .last_content
-{
+{	
 	float:left;
 	width:100%;
-	
 }
 .last_content_left{
 float:left;	
